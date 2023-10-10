@@ -25,12 +25,14 @@ Datasets
 # Usage
 
 1. Prepare data\
-Extract data from the Causal-TB dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'Causal-TB'``` in line 91.<br>
-Extract data from the Causal-TB dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'Causal-TB'``` in line 91.<br>
+(Default)Extract data from the ESL dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'ESL'```.<br>
+Extract data from the Causal-TB dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'Causal-TB'```.<br>
 and run:
+
 ```
 python datasets/preprocessor/preprocessor.py
 ```
+
 
 2. Train model:
 ```
