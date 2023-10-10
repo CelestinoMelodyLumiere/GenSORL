@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Nice to meet you - Wish you have a great performance :))"
+echo "Nice to meet you!"
 echo "CausalTB training...."
 
 python run.py Causal-TB -g 2 -mle -lr 0.006 -bs 32 -e 15 -w_gen 0.75

@@ -14,20 +14,14 @@ pip install -r requirements.txt
 
 Datasets
 ==========
-
-We provide all the datasets and prompts used in our experiments.
-
-+ [[SEMEVAL]](dataset/semeval)
-
-+ [[DialogRE]](dataset/dialogue)
-
-+ [[TACRED-Revisit]](dataset/tacrev)
-
-+ [[Re-TACRED]](dataset/retacred)
-
-+ [[TACRED]](dataset/tacred)
-
-
+1. 下载数据集 (建议略过该步, 直接进行[2]和Step 3)  
+    [EventStoryLine](https://github.com/tommasoc80/EventStoryLine)  
+    [Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank)
+2. 下载论文作者使用的数据
+    [全部数据(Google Drive)](https://drive.google.com/drive/folders/1juvVPa7wqYqBYzj-wvpwbBKV3Jkufk11?usp=sharing)  
+3. 解压覆盖  
+    步骤[1]-->解压文件夹, 将数据集复制到`datasets`文件夹下  
+    步骤[2]-->解压文件夹至项目文件夹下，覆盖原来的`datasets`文件夹
 # Usage
 
 1. Prepare data\
