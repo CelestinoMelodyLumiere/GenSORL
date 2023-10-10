@@ -14,18 +14,22 @@ pip install -r requirements.txt
 
 Datasets
 ==========
-1. 下载数据集 (建议略过该步, 直接进行[2]和Step 3)  
+1. Download the dataset (It is recommended to skip this step and proceed directly to Step[2] and Step[3])  
     [EventStoryLine](https://github.com/tommasoc80/EventStoryLine)  
     [Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank)
-2. 下载论文作者使用的数据
-    [全部数据(Google Drive)](https://drive.google.com/drive/folders/1Kqzzyeh4DUbsLoVfVAmzWX16NqKLSd8X?usp=sharing)  
-3. 解压覆盖  
-    步骤[1]-->解压文件夹, 将数据集复制到`datasets`文件夹下  
-    步骤[2]-->解压文件夹至项目文件夹下，覆盖原来的`datasets`文件夹
+
+2. Download the data utilized by the authors of the paper
+    [All data(Google Drive)](https://drive.google.com/drive/folders/1Kqzzyeh4DUbsLoVfVAmzWX16NqKLSd8X?usp=sharing)  
+
+3. Extract and overwrite  
+    Step[1] - Extract the folder and copy the dataset to the datasets folder.  
+    Step[2] - Extract the folder to the project directory, overwriting the existing datasets folder.
+
+
 # Usage
 
 1. Prepare data\
-Extract data from the ESL dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'ESL'```(Default).<br>
+Extract data from the ESL dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'ESL'```.(Default)<br>
 Extract data from the Causal-TB dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'Causal-TB'```.<br>
 and run:
 
