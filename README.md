@@ -25,7 +25,8 @@ Datasets
 # Usage
 
 1. Prepare data\
-Download the desired corpus (ESL, Causal-TB) and put it in folder ```.\datasets```
+Extract data from the Causal-TB dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'Causal-TB'``` in line 91.\n
+Extract data from the Causal-TB dataset: In the preprocessor.py file located at ```.\datasets\preprocessor.py```, set ```dataset = 'Causal-TB'``` in line 91.\n
 and run:
 ```
 python datasets/preprocessor/preprocessor.py
@@ -35,7 +36,7 @@ python datasets/preprocessor/preprocessor.py
 ```
 sh ESL_bash.sh
 ```
-or
+or Select training dataset: In the datasets.py file located at ```.\data_modules\datasets.py```, change "ESL" to "Causal-TB" in line 143.
 ```
 sh CausalTB_bash.sh
 ```

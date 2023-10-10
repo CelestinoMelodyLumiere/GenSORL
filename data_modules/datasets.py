@@ -140,7 +140,7 @@ class MatresDataset(JointERDataset):
 @register_dataset
 class ESLDataset(JointERDataset):
 
-    name = "Causal-TB"
+    name = "ESL"
 
     default_input_format = 'ECI_input'
     default_output_format = 'ECI_ouput'
