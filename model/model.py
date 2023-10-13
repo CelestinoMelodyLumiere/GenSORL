@@ -182,7 +182,7 @@ class GenEC(pl.LightningModule):
         baseline_loss = F.mse_loss(sample_reward, baseline_values)
 
         # compute total loss
-        total_loss = policy_gradient_loss + 0.1 * baseline_loss
+        total_loss = policy_gradient_loss + 0.5 * baseline_loss
 
         return total_loss, torch.mean(sample_reward)
 
