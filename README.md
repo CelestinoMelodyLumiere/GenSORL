@@ -19,8 +19,9 @@ Datasets
     [Causal-TimeBank](https://github.com/paramitamirza/Causal-TimeBank)
 
 2. Download the data utilized by the authors of the paper
-All data, Please contact with write;
-[//]: # (    [All data&#40;Google Drive&#41;]&#40;https://drive.google.com/drive/folders/1Kqzzyeh4DUbsLoVfVAmzWX16NqKLSd8X?usp=sharing&#41;  )
+All data, Please contact with writer;
+
+[//]: # (    [All data&#40;Google Drive&#41;]&#40;https://drive.google.com/drive/folders/1Kqzzyeh4DUbsLoVfVAmzWX16NqKLSd8X?usp=sharing&#41;)
     
 3. Extract and overwrite  
     Step[1] - Extract the folder and copy the dataset to the datasets folder.  
