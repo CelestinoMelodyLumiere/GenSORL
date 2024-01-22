@@ -20,8 +20,8 @@ Datasets
 
 2. Download the data utilized by the authors of the paper
 
-[//]: # (    [All data&#40;Google Drive&#41;]&#40;https://drive.google.com/drive/folders/1Kqzzyeh4DUbsLoVfVAmzWX16NqKLSd8X?usp=sharing&#41;  )
-
+    [All data(Google Drive)](https://drive.google.com/drive/folders/1Kqzzyeh4DUbsLoVfVAmzWX16NqKLSd8X?usp=sharing00)  
+    
 3. Extract and overwrite  
     Step[1] - Extract the folder and copy the dataset to the datasets folder.  
     Step[2] - Extract the folder to the project directory, overwriting the existing datasets folder.
@@ -52,3 +52,4 @@ sh CausalTB_bash.sh
 # Acknowledgement
 
 [//]: # (Part of our code is borrowed from [code]&#40;https://github.com/hieumdt/GenECI&#41;, many thanks.)
+Part of our code is borrowed from code, many thanks.
